@@ -3,10 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    background-color: #EDEADE;
-}
-.top-text{
 
-    
+body {
+  background-color: #edeade;
+}
+.top-text {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 30px;
+}
+.content{
+  padding-top:150px ;
+  padding-left: 80px;
+  width: 50%;
+  color: #333;
+}
+.content_heading{
+  font-size: 50px;
+
+}
+.content_text{
+  padding-top: 50px ;
+  font-size:20px;
+  text-align: justify;
 }
