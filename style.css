@@ -30,8 +30,27 @@ body {
   font-size: 20px;
   text-align: justify;
 }
-.days {
+/* .days {
   top: 100px;
   position: absolute;
   left: 1100px;
+} */
+.container {
+  top: 100px;
+  position: absolute;
+  left: 800px;
+  width: 400px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+.maledays {
+  width: 100%;
+  text-align: center;
+}
+.front-male {
+  backface-visibility: hidden;
+}
+.front-male img {
+  width: 60%;
+  border-radius: 10px;
 }
