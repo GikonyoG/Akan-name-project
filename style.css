@@ -50,7 +50,27 @@ body {
 .front-male {
   backface-visibility: hidden;
 }
-.front-male img {
+
+.front-male h3{
+  width: 70%;
+  height: 400px;
+  border: 2px solid red;
+  background: url("africanman.jpg");
+  
+  text-align: center;
+  padding-top: 160px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 20px;
+
+}
+  
+.back-male{
+  backface-visibility: hidden;
+  background: #fff;
+  color: #333;
+  position: absolute;
+  height:100% ;
   width: 60%;
   border-radius: 10px;
 }
