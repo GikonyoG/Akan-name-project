@@ -12,25 +12,26 @@ body {
   padding-top: 10px;
   font-size: 30px;
 }
-.content{
-  padding-top:150px ;
+.content {
+  padding-top: 150px;
   padding-left: 80px;
   width: 50%;
   color: #333;
+  margin-right: 10%;
   /* background:#fff3f3 ;
   box-sizing: border-box; */
-} 
-  
-  
-.content_heading{
-  font-size: 50px;
-
 }
-.content_text{
-  padding-top: 50px ;
-  font-size:20px;
+
+.content_heading {
+  font-size: 50px;
+}
+.content_text {
+  padding-top: 50px;
+  font-size: 20px;
   text-align: justify;
- 
-
-
+}
+.days {
+  top: 100px;
+  position: absolute;
+  left: 1100px;
 }
