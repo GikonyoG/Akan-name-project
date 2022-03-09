@@ -17,7 +17,11 @@ body {
   padding-left: 80px;
   width: 50%;
   color: #333;
-}
+  /* background:#fff3f3 ;
+  box-sizing: border-box; */
+} 
+  
+  
 .content_heading{
   font-size: 50px;
 
@@ -26,4 +30,7 @@ body {
   padding-top: 50px ;
   font-size:20px;
   text-align: justify;
+ 
+
+
 }
