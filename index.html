@@ -60,12 +60,31 @@
         </div>
       </div>
 
-      <form action="">
-        <div class="pick-gender">
-          Gender:
-          <input type="radio" name="gender" value="male" /> Male
-          <input type="radio" name="gender" value="female" /> Female
-        </div>
+      <form id="form" class="form">
+        <label for="gender">
+          <h3>Gender:</h3>
+          <input
+            id="gender"
+            type="radio"
+            name="gender"
+            value="male"
+            required
+          />Male
+          <input
+            id="gender"
+            type="radio"
+            name="gender"
+            value="female"
+            required
+          />Female
+        </label>
+
+        <label for="Date"
+          >Date of Birth <br />
+
+          <input id="date" type="Date" required /><br />
+          <input type="submit" value="Submit" />
+        </label>
       </form>
     </div>
   </body>
