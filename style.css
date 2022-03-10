@@ -6,6 +6,7 @@
 
 body {
   background-color: #edeade;
+
 }
 .top-text {
   text-align: center;
@@ -18,8 +19,7 @@ body {
   width: 50%;
   color: #333;
   margin-right: 10%;
-  /* background:#fff3f3 ;
-  box-sizing: border-box; */
+
 }
 
 .content_heading {
@@ -37,14 +37,14 @@ body {
   border: 1px solid transparent;
   border-radius: 10px;
   perspective: 1000px;
-  margin-left:850px;
-  top: -290px;
+  margin-left:750px;
+  top: -350px;
   position: relative;
   
 
 }
 
-.male-days-container {
+.days-container {
   position: relative;
   width: 100%;
   height: 100%;
@@ -53,26 +53,26 @@ body {
   transition: transform 0.8s;
 }
 
-.container:hover .male-days-container {
+.container:hover .days-container {
   transform: rotateY(180deg);
   cursor: pointer;
 }
 
-.front-male,
-.back-male{
+.front,
+.back{
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
   border-radius: 10px;
 }
-.front-male {
+.front{
   background: white url("africanman.jpg"); 
   padding-top: 60px;
   
 
 } 
-.front-male h3{
+.front h3{
   color: #fff;
   font-size: 33px;
   display: inline-block;
@@ -80,89 +80,28 @@ body {
   font-weight: 300px;
   padding-top: 100px ;
 }
-.back-male{
+.back{
   width: 280px;
   height: 380px;
   background: white;
   transform: rotateY(180deg);
 }
-.back-male ul{
+.back ul{
   position: relative;
   padding-top: 20px ;
   list-style: none;
   padding-left: 30px;
   color: #333;
   font-size: 20px;
-  text-align: justify;
-
- 
+  text-align: justify; 
 }
-.back-male li{
+.back li{
   margin: 20px ;
   padding: 2px 5px;
   font-weight: 900;
 }
-
-
-
-
- 
-
-
-
-
-
-
-
-/* .days {
-  top: 100px;
-  position: absolute;
-  left: 1100px;
-}
-.container {
-  top: 100px;
-  position: absolute;
-  left: 800px;
-  width: 400px;
-  perspective: 1000px;
-  cursor: pointer;
-}
-.maledays {
-  width: 100%;
-  text-align: center;
-}
-.front-male {
-  backface-visibility: hidden;
-    transform-style: preserve-3d;
-  transition: transform 0.8s;
-}
-
-.front-male h3{
-  width: 70%;
-  height: 400px;
-  border: 1px solid transparent;
-  background-image: url("africanman.jpg");
-  background-color: transparent;
-  border-radius: 10px;
-  text-align: center;
-  padding-top: 160px;
-  color: #fff;
-  font-size: 40px;
-  font-weight: 20px;
-
-
-}
-.maledays :hover .front-male {
-  transform: rotateY(180deg);
-  cursor: pointer;
-}
+.female-back{
   
-.back-male{
-  backface-visibility: hidden;
-  background: #fff;
-  color: #333;
-  position: absolute;
-  height:100% ;
-  width: 60%;
-  border-radius: 10px;
 }
+
+
