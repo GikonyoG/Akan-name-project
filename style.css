@@ -161,3 +161,13 @@ input[type= "radio"]:checked + label{
   background-color: #333;
   color: #fff;
 } 
+.date-title{
+  text-align: justify;
+  padding-top: 20px;
+  font-size: 30px;
+}  
+input[type="date"]{
+  position: relative;
+  top:-25px
+
+}
