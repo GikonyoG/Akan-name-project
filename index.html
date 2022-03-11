@@ -61,30 +61,34 @@
       </div>
 
       <form id="form" class="form">
-        <label for="gender">
-          <h3>Gender:</h3>
-          <input
-            id="gender"
-            type="radio"
-            name="gender"
-            value="male"
-            required
-          />Male
-          <input
-            id="gender"
-            type="radio"
-            name="gender"
-            value="female"
-            required
-          />Female
-        </label>
+        <section class="data-section">
+          <div class="gender-type">
+            <h2 class="gender-title">Gender:</h2>
+            
+            <input
+              type="radio"
+              name="gender"
+              id="male"
+             
+              
+            /><label for="male" >Male</label>
+            
+            <input
+              
+              type="radio"
+              name ="gender"
+              id="female"
+              
+            /><label for="female">Female</label>
+          </div>  
+         
+          <!-- <label for="Date"
+            >Date of Birth <br />
 
-        <label for="Date"
-          >Date of Birth <br />
-
-          <input id="date" type="Date" required /><br />
-          <input type="submit" value="Submit" />
-        </label>
+            <input id="date" type="Date" required /><br />
+            <input type="submit" value="Submit" />
+          </label> -->
+        </section>
       </form>
     </div>
   </body>
