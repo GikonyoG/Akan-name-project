@@ -120,9 +120,9 @@ body {
   position: relative;
   bottom: 800px;
   border: 2px solid ;
-  padding-top: 10px;
   text-align: center;
-  padding-bottom: 100px;
+  padding: 20px 10px;
+  
 }
 .gender-title{
   text-align: justify;
@@ -170,4 +170,16 @@ input[type="date"]{
   position: relative;
   top:-25px
 
+}
+input[type="submit"]{
+  position: relative;
+  padding: 10px 30px;
+  top: -55px;
+  border: 2px solid grey;
+  font-size: 20px;
+  border-radius: 10px;
+}
+input[type="submit"]:hover{
+  background-color: #333;
+  color: #fff;
 }
