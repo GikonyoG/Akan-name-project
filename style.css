@@ -62,13 +62,12 @@ body {
   backface-visibility: hidden;
   border-radius: 10px;
 }
-.front{
-  background-color:rgba(205, 209, 228,0.8);
+.front {
+  background-color: rgba(205, 209, 228, 0.8);
   background-image: url("africanman.jpg");
   background-size: cover;
   background-blend-mode: overlay;
-}  
-
+}
 
 .front h3 {
   color: #333;
@@ -80,7 +79,7 @@ body {
 .back {
   width: 280px;
   height: 380px;
-  background: #edeade;
+  background: #333;
   transform: rotateY(180deg);
 }
 .back ul {
@@ -88,7 +87,7 @@ body {
   padding-top: 20px;
   list-style: none;
   padding-left: 30px;
-  color: #333;
+  color: #d8d8d8;
   font-size: 20px;
   text-align: justify;
 }
@@ -97,8 +96,8 @@ body {
   padding: 2px 5px;
   font-weight: 900;
 }
-.female-front{
-  background-color:rgba((3, 138, 255,1));
+.female-front {
+  background-color: rgba((3, 138, 255, 1));
   background-image: url("femalebg.jpg");
   background-size: cover;
   background-blend-mode: overlay;
