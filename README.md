@@ -19,8 +19,12 @@ and the function getday() was very curcial in getting which day of the week the 
 Email: gikonyogitau@gmail.com
 
 <h3>Links</h3>
-Please find links to the webpage and license below
+Links to the <a href="https://gikonyog.github.io/Akan-name-project/">WEBSITE</a>
+and <a href="https://github.com/GikonyoG/Akan-name-project/blob/master/LICENSElicense">LICENSE</a> 
 
-Webpage: 
+
+
+
+
 
 
