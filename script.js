@@ -15,35 +15,29 @@ const akannames = {
 
 const myform = document.getElementById("myform");
 
- myform.addEventListener("submit", (e) => {
-   e.preventDefault();
-   getvalues()
- });
-
+myform.addEventListener("submit", (e) => {
+  e.preventDefault();
+  getvalues();
+});
 
 function getvalues() {
-  
-  const gender = document.querySelector("input[name = 'gender']:checked")
-  if (gender === null){
-
-   return  alert("Please select your gender")
+  const gender = document.querySelector("input[name = 'gender']:checked");
+  if (gender === null) {
+    return alert("Please select your gender");
   }
-  
+
   const birthday = document.getElementById("date").value;
-  if (birthday == ''){
-    return alert("Please enter your birthday")
+  if (birthday == "") {
+    return alert("Please enter your birthday");
   }
-  console.log(birthday)
-
+  console.log(birthday);
 
   const d = new Date(birthday);
   let day = d.getDay();
 
-
-  document.querySelector(".akan-name").innerText = "Your Akan Name is " + akannames[gender.value][day] + " You were born on a " + days[day]
-  
-
- 
+  document.querySelector(".akan-name").innerText =
+    "Your Akan Name is " +
+    akannames[gender.value][day] +
+    " You were born on a " +
+    days[day];
 }
-
-
